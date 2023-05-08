@@ -11,13 +11,14 @@ body{
     box-sizing: border-box;
     font-family: 'Barlow Semi Condensed', sans-serif;
     background-color: hsl(210, 46%, 95%);
+    padding: 30px 30px;
     
 }
 .grid-container{
     display: grid;
     grid-template-columns:repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
-    gap: 10px;
+    gap: 15px;
     width: fit-content;
     /* padding: 20px; */
     margin:100px auto;
